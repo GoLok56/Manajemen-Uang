@@ -61,6 +61,7 @@ ENGINE = InnoDB
 AUTO_INCREMENT = 2
 DEFAULT CHARACTER SET = latin1;
 
+INSERT INTO 'my_db'.'user' ('username', 'password', 'saldo', 'dompet', 'nama') VALUES ('admin', 'admin', 0, 0, 'admin');
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
